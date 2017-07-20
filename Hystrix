@@ -1,0 +1,23 @@
+## What Is Hystrix?
+
+In a distributed environment, inevitably some of the many service dependencies will fail. Hystrix is a library that helps you control the interactions between these distributed services by adding latency tolerance and fault tolerance logic. Hystrix does this by isolating points of access between the services, stopping cascading failures across them, and providing fallback options, all of which improve your system’s overall resiliency.
+
+在分布式环境里，一些服务依赖不可避免的会出现失败,Hystrix 是一个java库 帮助你延迟容忍或者容错逻辑来控制服务之间的交互.Hystrix 隔离服务之间的访问,停止失败的级联访问,以及提供回退选项等，所有这些都是为了改善您的系统整体弹性.
+
+## What Is Hystrix For?
+
+### Hystrix is designed to do the following:
+
+1. Give protection from and control over latency and failure from dependencies accessed (typically over the network) via third-party client libraries.
+2. Stop cascading failures in a complex distributed system.
+3. Fail fast and rapidly recover.
+4. Fallback and gracefully degrade when possible.
+5. Enable near real-time monitoring, alerting, and operational control.
+
+### Hystrix的设计如下:
+
+1. 如控制延迟第三方客户端(通常是网络请求)或者响应失败等来保护服务之家之间的访问依赖
+2. 在一个复杂的分布式系统里组织级联调用失败
+3. 快速失败和迅速恢复
+4. 回退和优雅降级
+5. 接近实时的监控，警告以及运行控制
